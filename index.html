@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fff9f1">
+  <meta name="description" content="Correo personal y servicios privados para nuestra gente. Bienvenido a chillen.casa.">
+  <title>chillen.casa — lo nuestro, en un solo lugar</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-shell nav">
+    <a class="brand" href="#inicio" aria-label="chillen.casa, inicio"><img src="assets/logo.svg" alt="chillen.casa"></a>
+    <nav class="nav-links" aria-label="Navegación principal">
+      <a href="#servicios">La casa</a>
+      <a href="#idea">La idea</a>
+      <a class="button" href="mailto:hola@chillen.casa?subject=Quiero%20mi%20correo%20chillen.casa">Pedir mi correo</a>
+    </nav>
+  </header>
+
+  <main id="inicio">
+    <section class="site-shell hero">
+      <div>
+        <p class="eyebrow">Un espacio para nuestra gente</p>
+        <h1>Internet también puede sentirse como <span>casa.</span></h1>
+        <p class="lead">Correo personal y pequeños servicios privados para amigos. Sin ruido, sin postureo y con nombres que sí se recuerdan.</p>
+        <div class="hero-actions">
+          <a class="button" href="mailto:hola@chillen.casa?subject=Quiero%20mi%20correo%20chillen.casa">Quiero nombre@chillen.casa <span aria-hidden="true">↗</span></a>
+          <a class="button button--soft" href="#servicios">Ver qué habrá</a>
+        </div>
+      </div>
+
+      <aside class="mail-card" aria-label="Ejemplo de dirección de correo">
+        <img class="mini-logo" src="assets/mark.svg" alt="">
+        <h2>Tu rincón digital.</h2>
+        <p>Una dirección sencilla, personal y fácil de compartir.</p>
+        <span class="address">tu.nombre<span>@chillen.casa</span></span>
+        <span class="tiny">Disponible por invitación.</span>
+      </aside>
+    </section>
+
+    <section class="site-shell section" id="servicios">
+      <div class="section-head">
+        <h2>Una casa pequeña, pero bien puesta.</h2>
+        <p>Empezamos por el correo. El resto llegará solo si de verdad nos hace la vida más fácil.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <span class="icon" aria-hidden="true">✉️</span>
+          <h3>Correo personal</h3>
+          <p>Tu nombre, una dirección limpia y una bandeja protegida para usarla de verdad.</p>
+          <span class="status status--open">Primera utilidad</span>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">📦</span>
+          <h3>Chillen Drop</h3>
+          <p>Enviar fotos y archivos grandes entre amigos mediante enlaces privados y temporales.</p>
+          <span class="status">En preparación</span>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🗓️</span>
+          <h3>Planes</h3>
+          <p>Un calendario común para cenas, viajes, cumpleaños y esos planes que nunca caben en el chat.</p>
+          <span class="status">En preparación</span>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">📷</span>
+          <h3>Álbum compartido</h3>
+          <p>Fotos de viajes y encuentros en un espacio nuestro, ordenadas y sin compresión innecesaria.</p>
+          <span class="status">En preparación</span>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🔗</span>
+          <h3>Enlaces de la casa</h3>
+          <p>Accesos rápidos a recursos, recomendaciones y servicios que compartimos.</p>
+          <span class="status">En preparación</span>
+        </article>
+        <article class="card">
+          <span class="icon" aria-hidden="true">🔐</span>
+          <h3>Acceso privado</h3>
+          <p>Una sola puerta para entrar en los servicios de la casa sin convertirlo en otra red social.</p>
+          <span class="status">Más adelante</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="site-shell section" id="idea">
+      <div class="manifesto">
+        <h2>Menos plataforma.<br>Más pertenencia.</h2>
+        <p>chillen.casa no quiere competir con tus aplicaciones. Quiere ser la dirección común que las conecta: sencilla para quien la usa, cuidada por alguien de confianza y reservada para el círculo cercano.</p>
+      </div>
+    </section>
+
+    <section class="site-shell section">
+      <div class="cta">
+        <h2>¿Qué nombre quieres en la puerta?</h2>
+        <p>Escríbenos con dos o tres opciones. Las direcciones se asignan personalmente para evitar duplicados y mantener la casa ordenada.</p>
+        <a class="button" href="mailto:hola@chillen.casa?subject=Solicitud%20de%20correo%20chillen.casa&body=Mis%20opciones%20de%20direcci%C3%B3n%20son%3A%0A1.%20%0A2.%20%0A3.%20">Solicitar dirección <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-shell">
+    <img src="assets/logo.svg" alt="chillen.casa">
+    <span>Hecho con calma para amigos · <span id="year"></span></span>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
